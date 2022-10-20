@@ -1,0 +1,87 @@
+2022-10-20 10:15:58.400  INFO 9633 --- [restartedMain] b.c.i.o.OxefoodFelipeAlvesApplication    : Starting OxefoodFelipeAlvesApplication using Java 17.0.4 on LAB-04 with PID 9633 (/home/aluno/git/oxefood-FelipeAlves/target/classes started by aluno in /home/aluno/git/oxefood-FelipeAlves)
+2022-10-20 10:15:58.401  INFO 9633 --- [restartedMain] b.c.i.o.OxefoodFelipeAlvesApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:15:58.491  INFO 9633 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 10:15:58.491  INFO 9633 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 10:15:59.297  INFO 9633 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:15:59.343  INFO 9633 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2022-10-20 10:15:59.989  INFO 9633 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-20 10:15:59.998  INFO 9633 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-20 10:15:59.998  INFO 9633 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:16:00.061  INFO 9633 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:16:00.061  INFO 9633 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1569 ms
+2022-10-20 10:16:00.103  INFO 9633 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-20 10:16:00.571  INFO 9633 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-20 10:16:00.589  INFO 9633 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5434/oxefood'
+2022-10-20 10:16:00.795  INFO 9633 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:16:00.832  INFO 9633 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-20 10:16:00.977  INFO 9633 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 10:16:01.055  INFO 9633 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-20 10:16:02.541  INFO 9633 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:16:02.577  INFO 9633 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:16:03.125  WARN 9633 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:16:03.958  WARN 9633 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 795dfba7-f69a-4176-b2ab-cc823d2c2df8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-20 10:16:04.100 DEBUG 9633 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2022-10-20 10:16:04.150  INFO 9633 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1444a133, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10f0f23, org.springframework.security.web.context.SecurityContextPersistenceFilter@f646f14, org.springframework.security.web.header.HeaderWriterFilter@28bc6cd3, org.springframework.security.web.csrf.CsrfFilter@1104d4bb, org.springframework.security.web.authentication.logout.LogoutFilter@5a1c5bb5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3e1e6ef7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@ed6d5ef, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5ceb6ae, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5cc922ea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57ca7258, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b7aab7a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13b02da0, org.springframework.security.web.session.SessionManagementFilter@1081cd0c, org.springframework.security.web.access.ExceptionTranslationFilter@45c7a091, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@411fee0b]
+2022-10-20 10:16:04.204  INFO 9633 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-20 10:16:04.253  INFO 9633 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-20 10:16:04.266  INFO 9633 --- [restartedMain] b.c.i.o.OxefoodFelipeAlvesApplication    : Started OxefoodFelipeAlvesApplication in 6.243 seconds (JVM running for 7.026)
+2022-10-20 10:16:25.387  INFO 9633 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 10:16:25.388  INFO 9633 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-20 10:16:25.389  INFO 9633 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-20 10:16:25.407 DEBUG 9633 --- [http-nio-8082-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/cliente
+2022-10-20 10:16:25.417 DEBUG 9633 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-10-20 10:16:25.420 DEBUG 9633 --- [http-nio-8082-exec-2] o.s.security.web.csrf.CsrfFilter         : Invalid CSRF token found for http://localhost:8082/api/cliente
+2022-10-20 10:16:25.420 DEBUG 9633 --- [http-nio-8082-exec-2] o.s.s.w.access.AccessDeniedHandlerImpl   : Responding with 403 status code
+2022-10-20 10:16:25.422 DEBUG 9633 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-10-20 10:16:25.423 DEBUG 9633 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-10-20 10:16:25.424 DEBUG 9633 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-10-20 10:16:25.429 DEBUG 9633 --- [http-nio-8082-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /error
+2022-10-20 10:16:25.429 DEBUG 9633 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-10-20 10:16:25.433 DEBUG 9633 --- [http-nio-8082-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-10-20 10:16:25.448 DEBUG 9633 --- [http-nio-8082-exec-2] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [POST /error] with attributes [authenticated]
+2022-10-20 10:16:25.449 DEBUG 9633 --- [http-nio-8082-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@254ddc57, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-10-20 10:16:25.455 DEBUG 9633 --- [http-nio-8082-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using Or [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest], And [Not [MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@7fe907cb, matchingMediaTypes=[text/html], useEquals=false, ignoredMediaTypes=[]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@7fe907cb, matchingMediaTypes=[application/atom+xml, application/x-www-form-urlencoded, application/json, application/octet-stream, application/xml, multipart/form-data, text/xml], useEquals=false, ignoredMediaTypes=[*/*]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@7fe907cb, matchingMediaTypes=[*/*], useEquals=true, ignoredMediaTypes=[]]]
+2022-10-20 10:16:25.456 DEBUG 9633 --- [http-nio-8082-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@22a28889
+2022-10-20 10:16:25.457 DEBUG 9633 --- [http-nio-8082-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
+2022-10-20 10:16:25.458 DEBUG 9633 --- [http-nio-8082-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@33ceca59
+2022-10-20 10:16:25.459 DEBUG 9633 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-10-20 10:16:25.460 DEBUG 9633 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-10-20 10:16:25.460 DEBUG 9633 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-10-20 10:17:49.475  INFO 9633 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-10-20 10:17:49.480  INFO 9633 --- [RMI TCP Connection(12)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-20 10:17:49.481  INFO 9633 --- [RMI TCP Connection(12)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-20 10:17:49.492  INFO 9633 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:17:49.495  INFO 9633 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-20 10:17:49.502  INFO 9633 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-20 10:22:56.539  INFO 10161 --- [restartedMain] b.c.i.o.OxefoodFelipeAlvesApplication    : Starting OxefoodFelipeAlvesApplication using Java 17.0.4 on LAB-04 with PID 10161 (/home/aluno/git/oxefood-FelipeAlves/target/classes started by aluno in /home/aluno/git/oxefood-FelipeAlves)
+2022-10-20 10:22:56.541  INFO 10161 --- [restartedMain] b.c.i.o.OxefoodFelipeAlvesApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-10-20 10:22:56.589  INFO 10161 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-20 10:22:56.589  INFO 10161 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-20 10:22:57.139  INFO 10161 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-20 10:22:57.199  INFO 10161 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2022-10-20 10:22:57.789  INFO 10161 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-20 10:22:57.798  INFO 10161 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-20 10:22:57.799  INFO 10161 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-20 10:22:57.869  INFO 10161 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-20 10:22:57.870  INFO 10161 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1280 ms
+2022-10-20 10:22:57.933  INFO 10161 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-20 10:22:58.029  INFO 10161 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-20 10:22:58.041  INFO 10161 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5434/oxefood'
+2022-10-20 10:22:58.187  INFO 10161 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-20 10:22:58.233  INFO 10161 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-20 10:22:58.339  INFO 10161 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-20 10:22:58.410  INFO 10161 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-10-20 10:22:58.910  INFO 10161 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-20 10:22:58.917  INFO 10161 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-20 10:22:59.375  WARN 10161 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-20 10:23:00.084  INFO 10161 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-20 10:23:00.118  INFO 10161 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-20 10:23:00.130  INFO 10161 --- [restartedMain] b.c.i.o.OxefoodFelipeAlvesApplication    : Started OxefoodFelipeAlvesApplication in 3.906 seconds (JVM running for 4.583)
+2022-10-20 10:23:13.274  INFO 10161 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-20 10:23:13.275  INFO 10161 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-20 10:23:13.276  INFO 10161 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
