@@ -13,12 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.ifpe.oxefoodFelipeAlves.modelo.empresa.Empresa;
 import br.com.ifpe.oxefoodFelipeAlves.modelo.empresa.EmpresaService;
 import br.com.ifpe.oxefoodFelipeAlves.util.entity.GenericController;
+import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping("/api/empresa")
 public class EmpresaController extends GenericController{
 	@Autowired
 	private EmpresaService empresaService;
-	
+	@ApiOperation(value="Serviço responsável por salvar um cliente no sistema.")
 	 @PostMapping
 	    public ResponseEntity<Empresa> save(@RequestBody @Valid EmpresaRequest request) {
 
