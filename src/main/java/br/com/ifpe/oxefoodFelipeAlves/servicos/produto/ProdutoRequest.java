@@ -21,6 +21,8 @@ public class ProdutoRequest {
 	
 	private String descricao;
 	
+	private Long idCategoria;
+	
 	private Double valorUnitario;
 	
 	private String tempoEntrega;
